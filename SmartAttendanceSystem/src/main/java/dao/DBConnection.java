@@ -9,7 +9,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/smart_attendance",
                 "root",
-                "student@123"
+                "/*Your Database Password*/"
             );
         } catch (Exception e) {
             e.printStackTrace();
